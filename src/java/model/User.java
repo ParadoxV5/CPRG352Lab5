@@ -1,6 +1,8 @@
 package model;
 import java.util.Objects;
-public class User {
+public class User implements java.io.Serializable {
+  private static final long serialVersionUID = 1;
+  
   private final String username;
   public String getUsername() { return username; }
   
